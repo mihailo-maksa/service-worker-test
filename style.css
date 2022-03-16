@@ -1,0 +1,43 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0d1014;
+  color: #fff;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.75em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
